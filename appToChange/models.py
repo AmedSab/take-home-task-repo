@@ -11,3 +11,5 @@ class MyChangingModel(models.Model):
     
     notMain_IntegerField = models.IntegerField()
     
+    notMain_IntegerField2 = models.IntegerField()
+    
