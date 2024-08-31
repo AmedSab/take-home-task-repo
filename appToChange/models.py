@@ -10,4 +10,9 @@ class MyChangingModel(models.Model):
     merge_conflict1_EmailField = models.EmailField(max_length=255, blank=True, null=True)
 
     
+
+    notMain_IntegerField = models.IntegerField()
+    
+    notMain_IntegerField2 = models.IntegerField()
+
     
