@@ -7,6 +7,7 @@ class MyChangingModel(models.Model):
     main_CharField = models.CharField(max_length=255, blank=True, default='', null=True)
     main_BooleanField = models.BooleanField(default=True)
     
-    main_conflict_EmailField = models.EmailField(max_length=255, blank=True, null=True)
+    merge_conflict1_EmailField = models.EmailField(max_length=255, blank=True, null=True)
+
     
     
